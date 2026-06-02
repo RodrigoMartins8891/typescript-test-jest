@@ -50,5 +50,4 @@ Executa os testes em modo Watch (atualiza automaticamente ao salvar um arquivo):
 npm run test:watch
 ```
 
----
-Feito com 💜 por [Seu Nome](https://github.com).
+
