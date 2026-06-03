@@ -11,15 +11,27 @@ Projeto inicial para demonstração e aprendizado de testes automatizados em amb
 ## 📁 Estrutura do Projeto
 
 ```text
+├── cart/
+│   ├── cart.d.ts.map
+│   ├── cart.js
+│   └── cart.ts             # Classe do Carrinho de Compras
+├── products/
+│   ├── product.d.ts.map
+│   ├── product.js
+│   └── product.ts          # Modelo/Classe de Produtos
 ├── src/
 │   └── ts/
-│       └── calc.ts         # Código de produção (funções matemáticas)
-├── __tests__/
-│   └── calc.test.ts       # Arquivos de testes unitários
+│       ├── main.d.ts.map
+│       ├── main.js
+│       └── main.ts         # Arquivo principal de execução
+├── tests/
+│   ├── calc.test.ts        # Testes das funções matemáticas
+│   └── cart.test.ts        # Testes do carrinho de compras
 ├── jest.config.js          # Configuração do Jest
 ├── package.json            # Dependências e scripts do projeto
 └── tsconfig.json           # Configuração do TypeScript
 ```
+
 
 ## 📦 Como Instalar
 
